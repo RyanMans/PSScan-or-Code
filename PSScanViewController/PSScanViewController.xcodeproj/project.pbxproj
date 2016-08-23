@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		151D116E1D6BE09600FE186E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 151D116D1D6BE09600FE186E /* main.m */; };
+		151D11711D6BE09600FE186E /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 151D11701D6BE09600FE186E /* PSAppDelegate.m */; };
+		151D11771D6BE09600FE186E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151D11751D6BE09600FE186E /* Main.storyboard */; };
+		151D11791D6BE09600FE186E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151D11781D6BE09600FE186E /* Assets.xcassets */; };
+		151D117C1D6BE09600FE186E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151D117A1D6BE09600FE186E /* LaunchScreen.storyboard */; };
+		151D11871D6BE09600FE186E /* PSScanViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 151D11861D6BE09600FE186E /* PSScanViewControllerTests.m */; };
+		151D11921D6BE09600FE186E /* PSScanViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 151D11911D6BE09600FE186E /* PSScanViewControllerUITests.m */; };
+		151D11A51D6BE29800FE186E /* UIView+PS.m in Sources */ = {isa = PBXBuildFile; fileRef = 151D11A41D6BE29800FE186E /* UIView+PS.m */; };
+		151D11AA1D6BE86B00FE186E /* NSObject+PS.m in Sources */ = {isa = PBXBuildFile; fileRef = 151D11A91D6BE86B00FE186E /* NSObject+PS.m */; };
+		151D11AD1D6BE95E00FE186E /* UIControl+PS.m in Sources */ = {isa = PBXBuildFile; fileRef = 151D11AC1D6BE95E00FE186E /* UIControl+PS.m */; };
+		151D11B41D6BEA4400FE186E /* PSTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151D11B31D6BEA4400FE186E /* PSTestViewController.m */; };
+		151D11B91D6BED6800FE186E /* PSScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151D11B81D6BED6800FE186E /* PSScanViewController.m */; };
+		15B469601D6C28E600336A5D /* NSString+PS.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B4695F1D6C28E600336A5D /* NSString+PS.m */; };
+		15B469661D6C32F500336A5D /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B469651D6C32F500336A5D /* NSDate+Category.m */; };
+		15B469691D6C331E00336A5D /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B469681D6C331E00336A5D /* NSDateFormatter+Category.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		151D11831D6BE09600FE186E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 151D11611D6BE09500FE186E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 151D11681D6BE09600FE186E;
+			remoteInfo = PSScanViewController;
+		};
+		151D118E1D6BE09600FE186E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 151D11611D6BE09500FE186E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 151D11681D6BE09600FE186E;
+			remoteInfo = PSScanViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		151D11691D6BE09600FE186E /* PSScanViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSScanViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		151D116D1D6BE09600FE186E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		151D116F1D6BE09600FE186E /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
+		151D11701D6BE09600FE186E /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
+		151D11761D6BE09600FE186E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		151D11781D6BE09600FE186E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		151D117B1D6BE09600FE186E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		151D117D1D6BE09600FE186E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151D11821D6BE09600FE186E /* PSScanViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSScanViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		151D11861D6BE09600FE186E /* PSScanViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSScanViewControllerTests.m; sourceTree = "<group>"; };
+		151D11881D6BE09600FE186E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151D118D1D6BE09600FE186E /* PSScanViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSScanViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		151D11911D6BE09600FE186E /* PSScanViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSScanViewControllerUITests.m; sourceTree = "<group>"; };
+		151D11931D6BE09600FE186E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151D11A31D6BE29800FE186E /* UIView+PS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PS.h"; sourceTree = "<group>"; };
+		151D11A41D6BE29800FE186E /* UIView+PS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PS.m"; sourceTree = "<group>"; };
+		151D11A61D6BE38B00FE186E /* PSDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSDefine.h; sourceTree = "<group>"; };
+		151D11A71D6BE81000FE186E /* PSLibs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLibs.h; sourceTree = "<group>"; };
+		151D11A81D6BE86B00FE186E /* NSObject+PS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PS.h"; sourceTree = "<group>"; };
+		151D11A91D6BE86B00FE186E /* NSObject+PS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PS.m"; sourceTree = "<group>"; };
+		151D11AB1D6BE95E00FE186E /* UIControl+PS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+PS.h"; sourceTree = "<group>"; };
+		151D11AC1D6BE95E00FE186E /* UIControl+PS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PS.m"; sourceTree = "<group>"; };
+		151D11B21D6BEA4400FE186E /* PSTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTestViewController.h; sourceTree = "<group>"; };
+		151D11B31D6BEA4400FE186E /* PSTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTestViewController.m; sourceTree = "<group>"; };
+		151D11B51D6BEAF300FE186E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		151D11B61D6BEBA800FE186E /* PSTypedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSTypedef.h; sourceTree = "<group>"; };
+		151D11B71D6BED6800FE186E /* PSScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSScanViewController.h; sourceTree = "<group>"; };
+		151D11B81D6BED6800FE186E /* PSScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSScanViewController.m; sourceTree = "<group>"; };
+		15B4695E1D6C28E600336A5D /* NSString+PS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PS.h"; sourceTree = "<group>"; };
+		15B4695F1D6C28E600336A5D /* NSString+PS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PS.m"; sourceTree = "<group>"; };
+		15B469641D6C32F500336A5D /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+		15B469651D6C32F500336A5D /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		15B469671D6C331E00336A5D /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
+		15B469681D6C331E00336A5D /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Category.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		151D11661D6BE09600FE186E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151D117F1D6BE09600FE186E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151D118A1D6BE09600FE186E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		151D11601D6BE09500FE186E = {
+			isa = PBXGroup;
+			children = (
+				151D116B1D6BE09600FE186E /* PSScanViewController */,
+				151D11851D6BE09600FE186E /* PSScanViewControllerTests */,
+				151D11901D6BE09600FE186E /* PSScanViewControllerUITests */,
+				151D116A1D6BE09600FE186E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		151D116A1D6BE09600FE186E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				151D11691D6BE09600FE186E /* PSScanViewController.app */,
+				151D11821D6BE09600FE186E /* PSScanViewControllerTests.xctest */,
+				151D118D1D6BE09600FE186E /* PSScanViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		151D116B1D6BE09600FE186E /* PSScanViewController */ = {
+			isa = PBXGroup;
+			children = (
+				151D11A21D6BE28000FE186E /* PSLibs */,
+				151D11B11D6BEA2C00FE186E /* PSScan */,
+				151D116F1D6BE09600FE186E /* PSAppDelegate.h */,
+				151D11701D6BE09600FE186E /* PSAppDelegate.m */,
+				151D11B51D6BEAF300FE186E /* PrefixHeader.pch */,
+				151D11751D6BE09600FE186E /* Main.storyboard */,
+				151D11781D6BE09600FE186E /* Assets.xcassets */,
+				151D117A1D6BE09600FE186E /* LaunchScreen.storyboard */,
+				151D117D1D6BE09600FE186E /* Info.plist */,
+				151D116C1D6BE09600FE186E /* Supporting Files */,
+			);
+			path = PSScanViewController;
+			sourceTree = "<group>";
+		};
+		151D116C1D6BE09600FE186E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				151D116D1D6BE09600FE186E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		151D11851D6BE09600FE186E /* PSScanViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				151D11861D6BE09600FE186E /* PSScanViewControllerTests.m */,
+				151D11881D6BE09600FE186E /* Info.plist */,
+			);
+			path = PSScanViewControllerTests;
+			sourceTree = "<group>";
+		};
+		151D11901D6BE09600FE186E /* PSScanViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				151D11911D6BE09600FE186E /* PSScanViewControllerUITests.m */,
+				151D11931D6BE09600FE186E /* Info.plist */,
+			);
+			path = PSScanViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		151D11A21D6BE28000FE186E /* PSLibs */ = {
+			isa = PBXGroup;
+			children = (
+				151D11A71D6BE81000FE186E /* PSLibs.h */,
+				151D11B61D6BEBA800FE186E /* PSTypedef.h */,
+				151D11A61D6BE38B00FE186E /* PSDefine.h */,
+				15B4695E1D6C28E600336A5D /* NSString+PS.h */,
+				15B4695F1D6C28E600336A5D /* NSString+PS.m */,
+				151D11A81D6BE86B00FE186E /* NSObject+PS.h */,
+				151D11A91D6BE86B00FE186E /* NSObject+PS.m */,
+				15B469641D6C32F500336A5D /* NSDate+Category.h */,
+				15B469651D6C32F500336A5D /* NSDate+Category.m */,
+				15B469671D6C331E00336A5D /* NSDateFormatter+Category.h */,
+				15B469681D6C331E00336A5D /* NSDateFormatter+Category.m */,
+				151D11A31D6BE29800FE186E /* UIView+PS.h */,
+				151D11A41D6BE29800FE186E /* UIView+PS.m */,
+				151D11AB1D6BE95E00FE186E /* UIControl+PS.h */,
+				151D11AC1D6BE95E00FE186E /* UIControl+PS.m */,
+			);
+			path = PSLibs;
+			sourceTree = "<group>";
+		};
+		151D11B11D6BEA2C00FE186E /* PSScan */ = {
+			isa = PBXGroup;
+			children = (
+				151D11B21D6BEA4400FE186E /* PSTestViewController.h */,
+				151D11B31D6BEA4400FE186E /* PSTestViewController.m */,
+				151D11B71D6BED6800FE186E /* PSScanViewController.h */,
+				151D11B81D6BED6800FE186E /* PSScanViewController.m */,
+			);
+			path = PSScan;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		151D11681D6BE09600FE186E /* PSScanViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151D11961D6BE09600FE186E /* Build configuration list for PBXNativeTarget "PSScanViewController" */;
+			buildPhases = (
+				151D11651D6BE09600FE186E /* Sources */,
+				151D11661D6BE09600FE186E /* Frameworks */,
+				151D11671D6BE09600FE186E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSScanViewController;
+			productName = PSScanViewController;
+			productReference = 151D11691D6BE09600FE186E /* PSScanViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		151D11811D6BE09600FE186E /* PSScanViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151D11991D6BE09600FE186E /* Build configuration list for PBXNativeTarget "PSScanViewControllerTests" */;
+			buildPhases = (
+				151D117E1D6BE09600FE186E /* Sources */,
+				151D117F1D6BE09600FE186E /* Frameworks */,
+				151D11801D6BE09600FE186E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				151D11841D6BE09600FE186E /* PBXTargetDependency */,
+			);
+			name = PSScanViewControllerTests;
+			productName = PSScanViewControllerTests;
+			productReference = 151D11821D6BE09600FE186E /* PSScanViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		151D118C1D6BE09600FE186E /* PSScanViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151D119C1D6BE09600FE186E /* Build configuration list for PBXNativeTarget "PSScanViewControllerUITests" */;
+			buildPhases = (
+				151D11891D6BE09600FE186E /* Sources */,
+				151D118A1D6BE09600FE186E /* Frameworks */,
+				151D118B1D6BE09600FE186E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				151D118F1D6BE09600FE186E /* PBXTargetDependency */,
+			);
+			name = PSScanViewControllerUITests;
+			productName = PSScanViewControllerUITests;
+			productReference = 151D118D1D6BE09600FE186E /* PSScanViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		151D11611D6BE09500FE186E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ryan_Man;
+				TargetAttributes = {
+					151D11681D6BE09600FE186E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = S4PG7E3G9Q;
+					};
+					151D11811D6BE09600FE186E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 151D11681D6BE09600FE186E;
+					};
+					151D118C1D6BE09600FE186E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 151D11681D6BE09600FE186E;
+					};
+				};
+			};
+			buildConfigurationList = 151D11641D6BE09500FE186E /* Build configuration list for PBXProject "PSScanViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 151D11601D6BE09500FE186E;
+			productRefGroup = 151D116A1D6BE09600FE186E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				151D11681D6BE09600FE186E /* PSScanViewController */,
+				151D11811D6BE09600FE186E /* PSScanViewControllerTests */,
+				151D118C1D6BE09600FE186E /* PSScanViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		151D11671D6BE09600FE186E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151D117C1D6BE09600FE186E /* LaunchScreen.storyboard in Resources */,
+				151D11791D6BE09600FE186E /* Assets.xcassets in Resources */,
+				151D11771D6BE09600FE186E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151D11801D6BE09600FE186E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151D118B1D6BE09600FE186E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		151D11651D6BE09600FE186E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151D11B91D6BED6800FE186E /* PSScanViewController.m in Sources */,
+				151D11AD1D6BE95E00FE186E /* UIControl+PS.m in Sources */,
+				151D11A51D6BE29800FE186E /* UIView+PS.m in Sources */,
+				151D11711D6BE09600FE186E /* PSAppDelegate.m in Sources */,
+				151D11AA1D6BE86B00FE186E /* NSObject+PS.m in Sources */,
+				151D116E1D6BE09600FE186E /* main.m in Sources */,
+				15B469601D6C28E600336A5D /* NSString+PS.m in Sources */,
+				15B469691D6C331E00336A5D /* NSDateFormatter+Category.m in Sources */,
+				151D11B41D6BEA4400FE186E /* PSTestViewController.m in Sources */,
+				15B469661D6C32F500336A5D /* NSDate+Category.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151D117E1D6BE09600FE186E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151D11871D6BE09600FE186E /* PSScanViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151D11891D6BE09600FE186E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151D11921D6BE09600FE186E /* PSScanViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		151D11841D6BE09600FE186E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 151D11681D6BE09600FE186E /* PSScanViewController */;
+			targetProxy = 151D11831D6BE09600FE186E /* PBXContainerItemProxy */;
+		};
+		151D118F1D6BE09600FE186E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 151D11681D6BE09600FE186E /* PSScanViewController */;
+			targetProxy = 151D118E1D6BE09600FE186E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		151D11751D6BE09600FE186E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				151D11761D6BE09600FE186E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		151D117A1D6BE09600FE186E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				151D117B1D6BE09600FE186E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		151D11941D6BE09600FE186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Maizhi Network Technology Co., Ltd. (S4PG7E3G9Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Maizhi Network Technology Co., Ltd. (S4PG7E3G9Q)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "f5f7b72c-2708-4bee-90b6-c3fa879f81ea";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		151D11951D6BE09600FE186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Maizhi Network Technology Co., Ltd. (S4PG7E3G9Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Maizhi Network Technology Co., Ltd. (S4PG7E3G9Q)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "f5f7b72c-2708-4bee-90b6-c3fa879f81ea";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		151D11971D6BE09600FE186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: efu@sinohealth.cn (985BCJQWHA)";
+				GCC_PREFIX_HEADER = PSScanViewController/PrefixHeader.pch;
+				INFOPLIST_FILE = PSScanViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maizhi.ejy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		151D11981D6BE09600FE186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: efu@sinohealth.cn (985BCJQWHA)";
+				GCC_PREFIX_HEADER = PSScanViewController/PrefixHeader.pch;
+				INFOPLIST_FILE = PSScanViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maizhi.ejy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		151D119A1D6BE09600FE186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PSScanViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Man.PSScanViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PSScanViewController.app/PSScanViewController";
+			};
+			name = Debug;
+		};
+		151D119B1D6BE09600FE186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PSScanViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Man.PSScanViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PSScanViewController.app/PSScanViewController";
+			};
+			name = Release;
+		};
+		151D119D1D6BE09600FE186E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PSScanViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Man.PSScanViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PSScanViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		151D119E1D6BE09600FE186E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PSScanViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Man.PSScanViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PSScanViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		151D11641D6BE09500FE186E /* Build configuration list for PBXProject "PSScanViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151D11941D6BE09600FE186E /* Debug */,
+				151D11951D6BE09600FE186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		151D11961D6BE09600FE186E /* Build configuration list for PBXNativeTarget "PSScanViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151D11971D6BE09600FE186E /* Debug */,
+				151D11981D6BE09600FE186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		151D11991D6BE09600FE186E /* Build configuration list for PBXNativeTarget "PSScanViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151D119A1D6BE09600FE186E /* Debug */,
+				151D119B1D6BE09600FE186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		151D119C1D6BE09600FE186E /* Build configuration list for PBXNativeTarget "PSScanViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151D119D1D6BE09600FE186E /* Debug */,
+				151D119E1D6BE09600FE186E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 151D11611D6BE09500FE186E /* Project object */;
+}
